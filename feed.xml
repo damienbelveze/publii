@@ -3,16 +3,16 @@
     <title>static website for researchers</title>
     <link href="https://damienbelveze.github.io/publii/feed.xml" rel="self" />
     <link href="https://damienbelveze.github.io/publii" />
-    <updated>2026-03-18T13:33:10+01:00</updated>
+    <updated>2026-03-18T13:55:48+01:00</updated>
     <author>
-        <name>Damien Belvèze</name>
+        <name>ARDoISE</name>
     </author>
     <id>https://damienbelveze.github.io/publii</id>
 
     <entry>
         <title>Comment appliquer un nom de domaine à un site statique</title>
         <author>
-            <name>Damien Belvèze</name>
+            <name>ARDoISE</name>
         </author>
         <link href="https://damienbelveze.github.io/publii/comment-appliquer-un-nom-de-domaine-a-un-site-statique.html"/>
         <id>https://damienbelveze.github.io/publii/comment-appliquer-un-nom-de-domaine-a-un-site-statique.html</id>
@@ -39,7 +39,7 @@
     <entry>
         <title>DecapCMS pour construire des sites de projets de recherche</title>
         <author>
-            <name>Damien Belvèze</name>
+            <name>ARDoISE</name>
         </author>
         <link href="https://damienbelveze.github.io/publii/decapcms-pour-construire-des-sites-de-projets-de-recherche.html"/>
         <id>https://damienbelveze.github.io/publii/decapcms-pour-construire-des-sites-de-projets-de-recherche.html</id>
@@ -70,7 +70,7 @@
     <entry>
         <title>intégration continue et développent de pages web</title>
         <author>
-            <name>Damien Belvèze</name>
+            <name>ARDoISE</name>
         </author>
         <link href="https://damienbelveze.github.io/publii/integration-continue-et-developpent-de-pages-web.html"/>
         <id>https://damienbelveze.github.io/publii/integration-continue-et-developpent-de-pages-web.html</id>
@@ -95,7 +95,7 @@
     <entry>
         <title>Appliquer un nom de domaine à un site créé avec Gitlab</title>
         <author>
-            <name>Damien Belvèze</name>
+            <name>ARDoISE</name>
         </author>
         <link href="https://damienbelveze.github.io/publii/appliquer-un-nom-de-domaine-a-un-site-cree-avec-gitlab.html"/>
         <id>https://damienbelveze.github.io/publii/appliquer-un-nom-de-domaine-a-un-site-cree-avec-gitlab.html</id>
@@ -133,7 +133,7 @@
     <entry>
         <title>Le bureau Coop</title>
         <author>
-            <name>Damien Belvèze</name>
+            <name>ARDoISE</name>
         </author>
         <link href="https://damienbelveze.github.io/publii/le-bureau-coop.html"/>
         <id>https://damienbelveze.github.io/publii/le-bureau-coop.html</id>
