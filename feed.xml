@@ -3,52 +3,36 @@
     <title>static website for researchers</title>
     <link href="https://damienbelveze.github.io/publii/feed.xml" rel="self" />
     <link href="https://damienbelveze.github.io/publii" />
-    <updated>2026-03-18T11:03:48+01:00</updated>
+    <updated>2026-03-18T13:33:10+01:00</updated>
     <author>
         <name>Damien Belvèze</name>
     </author>
     <id>https://damienbelveze.github.io/publii</id>
 
     <entry>
-        <title>another post here</title>
+        <title>Comment appliquer un nom de domaine à un site statique</title>
         <author>
             <name>Damien Belvèze</name>
         </author>
-        <link href="https://damienbelveze.github.io/publii/another-post-here.html"/>
-        <id>https://damienbelveze.github.io/publii/another-post-here.html</id>
+        <link href="https://damienbelveze.github.io/publii/comment-appliquer-un-nom-de-domaine-a-un-site-statique.html"/>
+        <id>https://damienbelveze.github.io/publii/comment-appliquer-un-nom-de-domaine-a-un-site-statique.html</id>
+        <media:content url="https://damienbelveze.github.io/publii/media/posts/13/DNS.png" medium="image" />
 
-        <updated>2026-03-18T11:03:48+01:00</updated>
+        <updated>2026-03-18T13:28:47+01:00</updated>
             <summary type="html">
                 <![CDATA[
-                    another post here
+                        <img src="https://damienbelveze.github.io/publii/media/posts/13/DNS.png" alt="" />
+                    1. réserver le nom de domaine 2. utiliser un CNAME ou un enregistrement type A ou AAAA 3. Assurer le contrôle de propriété
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>another post here</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>test</title>
-        <author>
-            <name>Damien Belvèze</name>
-        </author>
-        <link href="https://damienbelveze.github.io/publii/test.html"/>
-        <id>https://damienbelveze.github.io/publii/test.html</id>
-
-        <updated>2026-03-18T09:54:49+01:00</updated>
-            <summary type="html">
-                <![CDATA[
-                    blabla bloblo ahaha
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>blabla</p>
-<p>bloblo</p>
+                    <p><img src="https://damienbelveze.github.io/publii/media/posts/13/DNS.png" class="type:primaryImage" alt="" /></p>
+                <p>1. réserver le nom de domaine</p>
+<p>2. utiliser un CNAME ou un enregistrement type A ou AAAA</p>
+<p>3. Assurer le contrôle de propriété</p>
 <p> </p>
-<p>ahaha</p>
+<p> </p>
             ]]>
         </content>
     </entry>
@@ -59,15 +43,18 @@
         </author>
         <link href="https://damienbelveze.github.io/publii/decapcms-pour-construire-des-sites-de-projets-de-recherche.html"/>
         <id>https://damienbelveze.github.io/publii/decapcms-pour-construire-des-sites-de-projets-de-recherche.html</id>
+        <media:content url="https://damienbelveze.github.io/publii/media/posts/9/DecapCMS.jpg" medium="image" />
 
         <updated>2026-03-17T22:30:17+01:00</updated>
             <summary type="html">
                 <![CDATA[
+                        <img src="https://damienbelveze.github.io/publii/media/posts/9/DecapCMS.jpg" alt="" />
                     [Présentation de Julien Le Normand](https://sist.cnrs.fr/wp-content/uploads/2025/07/presentation_cafe_sist_decap_pages_starter.pdf, stagiaire de M2 encadré par Victor K’Bidi, chercheur à l’OSU Réunion, 11 juillet 2025. Constat que le déploiement manuel de sites sous wordpress pour des projets de recherche est chronophage cas concrets : gestion d’équipes de projets, partage de documentation&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://damienbelveze.github.io/publii/media/posts/9/DecapCMS.jpg" class="type:primaryImage" alt="" /></p>
                 <p>[Présentation de Julien Le Normand](<a href="https://sist.cnrs.fr/wp-content/uploads/2025/07/presentation_cafe_sist_decap_pages_starter.pdf">https://sist.cnrs.fr/wp-content/uploads/2025/07/presentation_cafe_sist_decap_pages_starter.pdf</a>, stagiaire de M2 encadré par Victor K’Bidi, chercheur à l’OSU Réunion, 11 juillet 2025.</p><p>Constat que le déploiement manuel de sites sous wordpress pour des projets de recherche est chronophage</p><ul>
 <li>Le recours à une solution avec gitlab Pages permet de déployer des sites de manière plus rapide et de les maintenir avec moins de mises à jour à gérer.</li>
 <li>le recours à DecapCMS  permet d’éliminer les vulnérabilités propres à Wordpress (liées en partie aux plugins non mis à jour et soumis à des attaques)</li>
@@ -87,21 +74,21 @@
         </author>
         <link href="https://damienbelveze.github.io/publii/integration-continue-et-developpent-de-pages-web.html"/>
         <id>https://damienbelveze.github.io/publii/integration-continue-et-developpent-de-pages-web.html</id>
+        <media:content url="https://damienbelveze.github.io/publii/media/posts/6/CI_CD.jpg" medium="image" />
 
         <updated>2026-03-17T22:14:29+01:00</updated>
             <summary type="html">
                 <![CDATA[
+                        <img src="https://damienbelveze.github.io/publii/media/posts/6/CI_CD.jpg" alt="" />
                     pages: stage: deploy script: - mkdir .public - cp -r _site/* .public/ # Copy only the contents of _site, not the folder itself - mv .public public artifacts: paths: - public/ # Serve the entire public directory as root only: - main
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p><code></code></p>
+                    <p><img src="https://damienbelveze.github.io/publii/media/posts/6/CI_CD.jpg" class="type:primaryImage" alt="" /></p>
+                <p><code><code></code></code></p>
 <p><br>pages:<br>  stage: deploy<br>  script:<br>    - mkdir .public<br>    - cp -r _site/* .public/  # Copy only the contents of _site, not the folder itself<br>    - mv .public public<br>  artifacts:<br>    paths:<br>      - public/  # Serve the entire public directory as root<br>  only:<br>    - main</p>
-<p><code></code></p>
-<p><code>
-</code></p>
-<p><code></code></p>
+<p> </p>
             ]]>
         </content>
     </entry>

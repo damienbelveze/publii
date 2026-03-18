@@ -5,37 +5,25 @@
     "home_page_url": "https://damienbelveze.github.io/publii",
     "feed_url": "https://damienbelveze.github.io/publii/feed.json",
     "user_comment": "",
+    "icon": "https://damienbelveze.github.io/publii/media/website/ARDoISE.png",
     "author": {
         "name": "Damien Belvèze"
     },
     "items": [
         {
-            "id": "https://damienbelveze.github.io/publii/another-post-here.html",
-            "url": "https://damienbelveze.github.io/publii/another-post-here.html",
-            "title": "another post here",
-            "summary": "another post here",
-            "content_html": "<p>another post here</p>",
+            "id": "https://damienbelveze.github.io/publii/comment-appliquer-un-nom-de-domaine-a-un-site-statique.html",
+            "url": "https://damienbelveze.github.io/publii/comment-appliquer-un-nom-de-domaine-a-un-site-statique.html",
+            "title": "Comment appliquer un nom de domaine à un site statique",
+            "summary": "1. réserver le nom de domaine 2. utiliser un CNAME ou un enregistrement type A ou AAAA 3. Assurer le contrôle de propriété",
+            "content_html": "<p>1. réserver le nom de domaine</p>\n<p>2. utiliser un CNAME ou un enregistrement type A ou AAAA</p>\n<p>3. Assurer le contrôle de propriété</p>\n<p> </p>\n<p> </p>",
+            "image": "https://damienbelveze.github.io/publii/media/posts/13/DNS.png",
             "author": {
                 "name": "Damien Belvèze"
             },
             "tags": [
             ],
-            "date_published": "2026-03-18T11:03:48+01:00",
-            "date_modified": "2026-03-18T11:03:48+01:00"
-        },
-        {
-            "id": "https://damienbelveze.github.io/publii/test.html",
-            "url": "https://damienbelveze.github.io/publii/test.html",
-            "title": "test",
-            "summary": "blabla bloblo ahaha",
-            "content_html": "<p>blabla</p>\n<p>bloblo</p>\n<p> </p>\n<p>ahaha</p>",
-            "author": {
-                "name": "Damien Belvèze"
-            },
-            "tags": [
-            ],
-            "date_published": "2026-03-18T09:54:49+01:00",
-            "date_modified": "2026-03-18T10:02:38+01:00"
+            "date_published": "2026-03-18T13:28:47+01:00",
+            "date_modified": "2026-03-18T13:28:47+01:00"
         },
         {
             "id": "https://damienbelveze.github.io/publii/decapcms-pour-construire-des-sites-de-projets-de-recherche.html",
@@ -43,27 +31,29 @@
             "title": "DecapCMS pour construire des sites de projets de recherche",
             "summary": "[Présentation de Julien Le Normand](https://sist.cnrs.fr/wp-content/uploads/2025/07/presentation_cafe_sist_decap_pages_starter.pdf, stagiaire de M2 encadré par Victor K’Bidi, chercheur à l’OSU Réunion, 11 juillet 2025. Constat que le déploiement manuel de sites sous wordpress pour des projets de recherche est chronophage cas concrets : gestion d’équipes de projets, partage de documentation&hellip;",
             "content_html": "<p>[Présentation de Julien Le Normand](<a href=\"https://sist.cnrs.fr/wp-content/uploads/2025/07/presentation_cafe_sist_decap_pages_starter.pdf\">https://sist.cnrs.fr/wp-content/uploads/2025/07/presentation_cafe_sist_decap_pages_starter.pdf</a>, stagiaire de M2 encadré par Victor K’Bidi, chercheur à l’OSU Réunion, 11 juillet 2025.</p><p>Constat que le déploiement manuel de sites sous wordpress pour des projets de recherche est chronophage</p><ul>\n<li>Le recours à une solution avec gitlab Pages permet de déployer des sites de manière plus rapide et de les maintenir avec moins de mises à jour à gérer.</li>\n<li>le recours à DecapCMS  permet d’éliminer les vulnérabilités propres à Wordpress (liées en partie aux plugins non mis à jour et soumis à des attaques)</li>\n<li>Le coût d’hébergement est réduit (coût du serveur de l’Université ou du labo qui héberge gitlab)</li>\n<li>L’utilisateur n’a pas besoin de toucher au code (présence [[interface graphique]])</li>\n<li>Le déploiement se fait en moins de deux minutes et ne requiert pas vraiment de formation technique par exemple pour contrôler le pipeline d’intégration continue. </li>\n<li>Grâce à Git le chercheur ou la chercheuse peut disposer d’un historique complet et revenir à des états antérieurs du site</li>\n</ul>\n<p>cas concrets : gestion d’équipes de projets, partage de documentation et diffusion de résultats. </p>",
+            "image": "https://damienbelveze.github.io/publii/media/posts/9/DecapCMS.jpg",
             "author": {
                 "name": "Damien Belvèze"
             },
             "tags": [
             ],
             "date_published": "2026-03-17T22:30:17+01:00",
-            "date_modified": "2026-03-18T10:28:49+01:00"
+            "date_modified": "2026-03-18T13:29:21+01:00"
         },
         {
             "id": "https://damienbelveze.github.io/publii/integration-continue-et-developpent-de-pages-web.html",
             "url": "https://damienbelveze.github.io/publii/integration-continue-et-developpent-de-pages-web.html",
             "title": "intégration continue et développent de pages web",
             "summary": "pages: stage: deploy script: - mkdir .public - cp -r _site/* .public/ # Copy only the contents of _site, not the folder itself - mv .public public artifacts: paths: - public/ # Serve the entire public directory as root only: - main",
-            "content_html": "<p><code></code></p>\n<p><br>pages:<br>  stage: deploy<br>  script:<br>    - mkdir .public<br>    - cp -r _site/* .public/  # Copy only the contents of _site, not the folder itself<br>    - mv .public public<br>  artifacts:<br>    paths:<br>      - public/  # Serve the entire public directory as root<br>  only:<br>    - main</p>\n<p><code></code></p>\n<p><code>\n</code></p>\n<p><code></code></p>",
+            "content_html": "<p><code><code></code></code></p>\n<p><br>pages:<br>  stage: deploy<br>  script:<br>    - mkdir .public<br>    - cp -r _site/* .public/  # Copy only the contents of _site, not the folder itself<br>    - mv .public public<br>  artifacts:<br>    paths:<br>      - public/  # Serve the entire public directory as root<br>  only:<br>    - main</p>\n<p> </p>",
+            "image": "https://damienbelveze.github.io/publii/media/posts/6/CI_CD.jpg",
             "author": {
                 "name": "Damien Belvèze"
             },
             "tags": [
             ],
             "date_published": "2026-03-17T22:14:29+01:00",
-            "date_modified": "2026-03-17T22:14:29+01:00"
+            "date_modified": "2026-03-18T13:33:10+01:00"
         },
         {
             "id": "https://damienbelveze.github.io/publii/appliquer-un-nom-de-domaine-a-un-site-cree-avec-gitlab.html",
